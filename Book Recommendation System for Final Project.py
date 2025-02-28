@@ -22,7 +22,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 """
 
 # Read data
-df = pd.read_csv('data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/15love39/Book-Recommendation-System-for-MAS651/refs/heads/main/data.csv')
 
 df.info()
 
